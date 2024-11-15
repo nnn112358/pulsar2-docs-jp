@@ -19,6 +19,9 @@ Large Model Compilation (Experimental Stage)
 - OpenBuddy
 
 This chapter introduces basic operations for converting models(``*.safetensor`` or ``pytorch_model.bin``) from Huggingface into ``axmodel`` using the ``pulsar2`` tool. Please first refer to the :ref:`《Development Environment Preparation》 <dev_env_prepare_en>` section to complete the setup of the development environment.
+
+本章では、Huggingfaceから「pulsar2」ツールを使用してモデル（「*.safetensor」または「pytorch_model.bin」）を「axmodel」に変換するための基本的な操作を紹介します。最初に、開発環境の準備を完了するために、:ref:《開発環境の準備》 <dev_env_prepare_en>セクションを参照してください。
+
 The example model in this section is ``Qwen2-0.5B-Instruct``.
 
 **Version Constraints**
