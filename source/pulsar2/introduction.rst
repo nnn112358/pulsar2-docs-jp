@@ -10,11 +10,18 @@ Introduction
 That is, **conversion**, **quantification**, **compilation**, and **heterogeneous** are four-in-one to achieve the **fast** and **efficient** deployment requirements of deep learning neural network models. 
 In-depth customization and optimization have been carried out for the characteristics of the new generation of `AX6 and M7` series chips (AX630C, AX620AV200, AX620Q, AX650A, AX650N, M76H), giving full play to the computing power of the on-chip heterogeneous computing unit (CPU+NPU) to improve the performance of the neural network model. Product deployment efficiency.
 
+Pulsar2 は、AXera(AXera 技術) が独自開発した次世代ニューラルネットワークコンパイラです。これは、変換、量子化、コンパイル、異種実行 という 4 つの重要ステップを 1 つにまとめたオールインワン ソリューションを提供します。この統合されたアプローチにより、ディープラーニング ニューラルネットワーク モデルの 高速かつ効率的なデプロイメント を実現します。
+
+Pulsar2 は、次世代の AXera AX6 および M7 シリーズ チップ (AX630C、AX620AV200、AX620Q、AX650A、AX650N、M76H) の特性に合わせて徹底的にカスタマイズおよび最適化されています。これにより、オンチップ異種コンピューティング ユニット (CPU + NPU) の計算能力を最大限に活用し、ニューラルネットワーク モデルのパフォーマンスを向上させ、製品デプロイメント効率 を改善します。
+
 **Special Note:**
 
 - The commands in the tool chain document are compatible with on-board chips, such as ``Pulsar2`` supports ``M76H``
 - The **example commands** and **example output** in the tool chain documentation are all based on ``AX650``.
 - The computing power configuration of the specific chip is subject to the chip SPEC.
+ツールチェーンドキュメントのコマンドは、オンボードチップと互換性があります。たとえば、Pulsar2 は M76H をサポートします。
+ツールチェーンドキュメントのコマンド例と出力例はすべて AX650 に基づいています。
+特定チップのコンピューティングパワー構成は、チップの SPEC に従います。
 
 The core function of the ``Pulsar2`` tool chain is to compile the ``.onnx`` model into an ``.axmodel`` model that the chip can parse and run.
 
